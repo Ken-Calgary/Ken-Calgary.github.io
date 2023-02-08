@@ -1,0 +1,170 @@
+html {
+    margin: 0;
+    height: 100vh;
+}
+
+@media only screen and (max-width: 800px) {
+    #main-body {
+        flex-direction: column;
+    }
+
+    #main-body figure {
+        border-right: none;
+        align-self: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    #main-body > article {
+        padding-top: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        height: 40%;
+        max-width: none;
+        min-width: none;
+    }
+
+    #border {
+           display: flex;
+           justify-content: center;
+           border-bottom: solid 2px #E8EBED;
+    }
+
+    td > progress {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .fig-info {
+        width: 100%;
+    }
+
+    h2 {
+        text-align: center;
+    }
+    
+}
+
+body {
+    margin: 0;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    border-top: solid 3px #21A3C7;
+    border-bottom: solid 1.5px #E8EBED;
+    background-color: #F7F8F9;
+    font-size: 18px;
+}
+
+nav ul { 
+    display: flex;
+    flex-grow: 0.5;
+    list-style: none;
+    background-color: inherit;
+    justify-content: space-around;
+}
+
+nav li {
+    text-decoration: none;
+    color: #21A3C7;
+}
+
+nav a {
+    text-decoration: none;
+    color: #A6A6A8;
+}
+
+#main-body {
+    display: flex;
+    height: inherit;
+    justify-content: center;
+}
+
+figure {
+    border-right: solid 2px #E8EBED;
+    line-height: 0.5;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-top: 50px;
+    min-height: 85%;
+}
+
+#profile-pic {
+    align-self: center;
+    border-radius: 50%;
+    border-bottom: 5px solid #A6A6A8;
+    width: 250px;
+}
+
+.fig-info {
+    color:#A6A6A8;
+    text-align: center;
+}
+
+.fig-info:nth-of-type(1) {
+    font-size: 30px;
+}
+.fig-info:nth-of-type(2) {
+    font-size: 20px;
+}
+.fig-info:nth-of-type(3) > a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #21A3C7;
+}
+
+article {
+    padding-top: 50px;
+    min-width: 40%;
+    max-width: 40%;
+}
+
+h2 {
+    font-size:x-large;
+}
+.text-color {
+    color: #A6A6A8;
+}
+
+.skill-name {
+    font-weight: bold;
+}
+
+#interest-list {
+    list-style-type: "- ";
+}
+
+.interests {
+    line-height: 2;
+}
+
+progress {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color:#21A3C7;
+}
+
+table {
+    min-width: 100%;
+    padding-bottom: 30px;
+}
+td {
+    width: 150px;  
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    height: 7%;
+    border-top: solid 2px #E8EBED;
+}
